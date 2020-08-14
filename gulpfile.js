@@ -11,7 +11,7 @@ const gulpZip = require('gulp-zip');
 const gulpUglify = require('gulp-uglify');
 const gulpSourcemaps = require('gulp-sourcemaps');
 const gulpPostcss = require('gulp-postcss');
-const autoprefixer = require('autoprefixer');
+// const autoprefixer = require('autoprefixer');
 const postcssUncss = require('postcss-uncss');
 const gulpSass = require('gulp-sass');
 const gulpBabel = require('gulp-babel');
@@ -131,7 +131,7 @@ const buildStyles = (mode) => (done) => {
   else outputStyle = undefined;
 
   const postcssPlugins = [
-    autoprefixer(autoprefixConfig),
+    // autoprefixer(autoprefixConfig),
     postcssUncss({ html: [distPath('html')] }),
   ];
   

@@ -37,7 +37,7 @@
     "postcss-uncss": "^0.16.1",
     "pump": "^3.0.0",
     "through2": "^2.0.3",
-    "uncss": "^0.16.2",
+    "uncss": "^0.17.3",
     "vinyl-named": "^1.1.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
