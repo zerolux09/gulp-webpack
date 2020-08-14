@@ -43,7 +43,7 @@ const supportedBrowsers = [
 ];
 
 // Config
-const autoprefixConfig = { browsers: supportedBrowsers, cascade: false };
+// const autoprefixConfig = { browsers: supportedBrowsers, cascade: false };
 const babelConfig = { targets: { browsers: supportedBrowsers } };
 
 // Paths for reuse
